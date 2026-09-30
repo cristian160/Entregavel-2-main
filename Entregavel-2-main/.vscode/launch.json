@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Servidor Java + interface Web",
+      "request": "launch",
+      "mainClass": "Servidor",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Depurar Contagem (vídeo)",
+      "request": "launch",
+      "mainClass": "Contagem",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Treinar Somatorio Java",
+      "request": "launch",
+      "mainClass": "Somatorio",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "msedge",
+      "name": "Frontend - Edge",
+      "request": "launch",
+      "url": "http://127.0.0.1:8080",
+      "webRoot": "${workspaceFolder}/Web"
+    }
+  ]
+}
